@@ -1,7 +1,6 @@
 FROM postgres:18
 
-ENV POSTGRES_DB=postgres
-ENV POSTGRES_USER=postgres
-ENV POSTGRES_PASSWORD=postgres
+COPY check.sh /check.sh
+RUN chmod +x /check.sh
 
-COPY dump.sql /docker-entrypoint-initdb.d/
+ENTRYPOINT ["/check.sh"]
