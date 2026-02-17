@@ -3,8 +3,8 @@ set -e
 
 echo "=== Проверяем архив ==="
 
-if [ ! -f /import/demo.sql.gz ]; then
-    echo "demo.sql.gz не найден. Запускаем обычный PostgreSQL."
+if [ ! -f /import/demo_big.sql.gz ]; then
+    echo "demo_big.sql.gz не найден. Запускаем обычный PostgreSQL."
     exec docker-entrypoint.sh postgres
 fi
 
@@ -20,7 +20,7 @@ done
 
 echo "=== Загружаем демобазу ==="
 
-gunzip -c /import/demo.sql.gz | psql -U "$POSTGRES_USER"
+gunzip -c /import/demo_big.sql.gz | psql -U "$POSTGRES_USER"
 
 echo "=== Загрузка завершена ==="
 
