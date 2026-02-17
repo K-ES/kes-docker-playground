@@ -1,0 +1,8 @@
+=== Export time: 2026-02-17 15:08:28 ===
+
+FullName                                                                         Size_MB CreationTime        LastWriteTime
+--------                                                                         ------- ------------        -------------
+C:\Users\ekriv\AppData\Local\Docker\wsl\disk\docker_data.vhdx                    1612,00 17.02.2026 15:06:13 17.02.2026 15:08:08
+C:\Users\ekriv\AppData\Local\Docker\wsl\main\ext4.vhdx                            104,00 17.02.2026 14:33:02 17.02.2026 15:07:20
+C:\Users\ekriv\AppData\Local\Temp\CBE56EFF-7694-4567-8DA7-739076C006F5\swap.vhdx   36,00 17.02.2026 15:06:11 17.02.2026 15:06:11
+

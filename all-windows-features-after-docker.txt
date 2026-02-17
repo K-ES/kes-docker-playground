@@ -1,0 +1,110 @@
+=== Export time: 2026-02-17 14:15:26 ===
+
+Cистема DISM
+Версия: 10.0.26100.5074
+
+Версия образа: 10.0.26200.7840
+
+Список компонентов для пакета : Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~10.0.26100.1
+
+
+------------------------------------------- | ---------
+Имя функции                                 | Состояние
+------------------------------------------- | ---------
+Printing-XPSServices-Features               | Включен  
+TelnetClient                                | Отключен 
+TFTP                                        | Отключен 
+TIFFIFilter                                 | Отключен 
+VirtualMachinePlatform                      | Включен  
+Client-ProjFS                               | Отключен 
+SimpleTCP                                   | Отключен 
+WorkFolders-Client                          | Включен  
+NetFx3                                      | Включен  
+WCF-HTTP-Activation                         | Отключен 
+WCF-NonHTTP-Activation                      | Отключен 
+IIS-WebServerRole                           | Отключен 
+IIS-WebServer                               | Отключен 
+IIS-CommonHttpFeatures                      | Отключен 
+IIS-HttpErrors                              | Отключен 
+IIS-HttpRedirect                            | Отключен 
+IIS-ApplicationDevelopment                  | Отключен 
+IIS-Security                                | Отключен 
+IIS-RequestFiltering                        | Отключен 
+IIS-NetFxExtensibility                      | Отключен 
+IIS-NetFxExtensibility45                    | Отключен 
+IIS-HealthAndDiagnostics                    | Отключен 
+IIS-HttpLogging                             | Отключен 
+IIS-LoggingLibraries                        | Отключен 
+IIS-RequestMonitor                          | Отключен 
+IIS-HttpTracing                             | Отключен 
+IIS-URLAuthorization                        | Отключен 
+IIS-IPSecurity                              | Отключен 
+IIS-Performance                             | Отключен 
+IIS-HttpCompressionDynamic                  | Отключен 
+IIS-WebServerManagementTools                | Отключен 
+IIS-ManagementScriptingTools                | Отключен 
+IIS-IIS6ManagementCompatibility             | Отключен 
+IIS-Metabase                                | Отключен 
+WAS-WindowsActivationService                | Отключен 
+WAS-ProcessModel                            | Отключен 
+WAS-NetFxEnvironment                        | Отключен 
+WAS-ConfigurationAPI                        | Отключен 
+IIS-HostableWebCore                         | Отключен 
+WCF-Services45                              | Включен  
+WCF-HTTP-Activation45                       | Отключен 
+WCF-TCP-Activation45                        | Отключен 
+WCF-Pipe-Activation45                       | Отключен 
+WCF-MSMQ-Activation45                       | Отключен 
+WCF-TCP-PortSharing45                       | Включен  
+IIS-StaticContent                           | Отключен 
+IIS-DefaultDocument                         | Отключен 
+IIS-DirectoryBrowsing                       | Отключен 
+IIS-WebDAV                                  | Отключен 
+IIS-WebSockets                              | Отключен 
+IIS-ApplicationInit                         | Отключен 
+IIS-ISAPIFilter                             | Отключен 
+IIS-ISAPIExtensions                         | Отключен 
+IIS-ASPNET                                  | Отключен 
+IIS-ASPNET45                                | Отключен 
+IIS-ASP                                     | Отключен 
+IIS-CGI                                     | Отключен 
+IIS-ServerSideIncludes                      | Отключен 
+IIS-CustomLogging                           | Отключен 
+IIS-BasicAuthentication                     | Отключен 
+IIS-HttpCompressionStatic                   | Отключен 
+IIS-ManagementConsole                       | Отключен 
+IIS-ManagementService                       | Отключен 
+IIS-WMICompatibility                        | Отключен 
+IIS-LegacyScripts                           | Отключен 
+IIS-FTPServer                               | Отключен 
+IIS-FTPSvc                                  | Отключен 
+IIS-FTPExtensibility                        | Отключен 
+MSMQ-Container                              | Отключен 
+MSMQ-DCOMProxy                              | Отключен 
+MSMQ-Server                                 | Отключен 
+MSMQ-HTTP                                   | Отключен 
+MSMQ-Multicast                              | Отключен 
+MSMQ-Triggers                               | Отключен 
+SMB1Protocol-Deprecation                    | Включен  
+MediaPlayback                               | Включен  
+WindowsMediaPlayer                          | Включен  
+LegacyComponents                            | Отключен 
+DirectPlay                                  | Отключен 
+NetFx4-AdvSrvs                              | Включен  
+NetFx4Extended-ASPNET45                     | Отключен 
+Printing-PrintToPDFServices-Features        | Включен  
+MSRDC-Infrastructure                        | Включен  
+Windows-Defender-Default-Definitions        | Отключен 
+Windows-Identity-Foundation                 | Отключен 
+Printing-Foundation-Features                | Включен  
+Printing-Foundation-InternetPrinting-Client | Включен  
+Printing-Foundation-LPDPrintService         | Отключен 
+Printing-Foundation-LPRPortMonitor          | Отключен 
+SMB1Protocol                                | Включен  
+SMB1Protocol-Client                         | Отключен 
+SMB1Protocol-Server                         | Отключен 
+SearchEngine-Client-Package                 | Включен  
+HypervisorPlatform                          | Отключен 
+Microsoft-Windows-Subsystem-Linux           | Включен  
+
+Операция успешно завершена.

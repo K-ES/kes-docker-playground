@@ -1,0 +1,7 @@
+$path = "S:\docker\Git\kes-docker-playground\all-windows-features.txt"
+
+"=== Export time: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') ===" | Out-File $path -Encoding UTF8
+dism /online /get-features /format:table | Out-File $path -Append -Encoding UTF8
+
+Write-Host "Готово:"
+Write-Host $path
