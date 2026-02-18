@@ -1,6 +1,9 @@
-FROM postgres:18
+FROM postgres:16
 
-COPY check.sh /check.sh
-RUN chmod +x /check.sh
+RUN apt-get update && \
+    apt-get install -y curl unzip && \
+    rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["/check.sh"]
+# init-скрипт выполнится автоматически при первом старте БД
+COPY 01-init.sh /docker-entrypoint-initdb.d/01-init.sh
+RUN chmod +x /docker-entrypoint-initdb.d/01-init.sh
